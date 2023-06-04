@@ -433,8 +433,8 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project-card:hover .overflow-text,
-.project-card:focus .overflow-text {
+.project-link:hover .overflow-text,
+.project-link:focus .overflow-text {
   transform: translateY(0%);
 }
 
@@ -636,6 +636,10 @@ img {
   border: none;
   fill: var(--nondescript-color);
   background-color: var(--active-contact-color);
+}
+
+.button-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
